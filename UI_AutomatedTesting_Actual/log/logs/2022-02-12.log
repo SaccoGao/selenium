@@ -1,0 +1,13 @@
+2022-02-12 14:30:30,023：remote_connection.py-_request 10 DEBUG POST http://localhost:7361/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2022-02-12 14:30:30,023：connectionpool.py-_new_conn 10 DEBUG Starting new HTTP connection (1): localhost:7361
+2022-02-12 14:30:30,595：connectionpool.py-_make_request 10 DEBUG http://localhost:7361 "POST /session HTTP/1.1" 200 786
+2022-02-12 14:30:30,595：remote_connection.py-_request 10 DEBUG Finished Request
+2022-02-12 14:30:30,595：remote_connection.py-_request 10 DEBUG POST http://localhost:7361/session/a79f3b7f506072a13a7e156949c86f07/window/maximize {}
+2022-02-12 14:30:30,738：connectionpool.py-_make_request 10 DEBUG http://localhost:7361 "POST /session/a79f3b7f506072a13a7e156949c86f07/window/maximize HTTP/1.1" 200 51
+2022-02-12 14:30:30,738：remote_connection.py-_request 10 DEBUG Finished Request
+2022-02-12 14:30:30,738：remote_connection.py-_request 10 DEBUG POST http://localhost:7361/session/a79f3b7f506072a13a7e156949c86f07/url {"url": "http://www.5itest.cn/register"}
+2022-02-12 14:30:39,422：connectionpool.py-_make_request 10 DEBUG http://localhost:7361 "POST /session/a79f3b7f506072a13a7e156949c86f07/url HTTP/1.1" 200 14
+2022-02-12 14:30:39,423：remote_connection.py-_request 10 DEBUG Finished Request
+2022-02-12 14:30:39,424：remote_connection.py-_request 10 DEBUG POST http://localhost:7361/session/a79f3b7f506072a13a7e156949c86f07/element {"using": "css selector", "value": "[id=\"register_email\"]"}
+2022-02-12 14:30:39,428：connectionpool.py-_make_request 10 DEBUG http://localhost:7361 "POST /session/a79f3b7f506072a13a7e156949c86f07/element HTTP/1.1" 404 941
+2022-02-12 14:30:39,429：remote_connection.py-_request 10 DEBUG Finished Request
