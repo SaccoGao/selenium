@@ -1,0 +1,11 @@
+1. Session和Cookie的区别
+① Cookie存在客户端，Session存在服务端
+② Session的验证一般需要Cookie带一个字段来表示这个用户是哪一个Session，所以当用户端禁用Cookie时，Session将失效
+
+2. Http协议如何保证数据在传输过程中不丢失
+三次握手，四次挥手
+
+3. 请求头中Accept、Accept-Encoding、Accept-Language都代表了什么
+Accept：告诉服务器它所支持的数据类型
+Accept-Encoding：告诉服务器它支持的压缩格式
+Accept-Language：告诉服务器它采用的语言
