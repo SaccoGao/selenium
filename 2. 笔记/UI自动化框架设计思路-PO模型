@@ -1,5 +1,5 @@
 1. 定义base层
-用于寻找页面元素，相当于一个基础工具，返回webelemium，供其他层调用。
+用于寻找页面元素，相当于一个基础工具，返回webelement，供其他层调用。
 实例见：UI_AutomatedTesting_Actual -> base
 
 2. 定义util层
